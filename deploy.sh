@@ -10,22 +10,22 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github
-# echo 'jayezhu.tk' > CNAME
-# if [ -z "$GITHUB_TOKEN" ]; then
-#   msg='deploy'
-#   githubUrl=git@github.com:jayezhu/blog.git
-# else
-#   msg='来自github actions的自动部署'
-#   githubUrl=https://jayezhu:${GITHUB_TOKEN}@github.com/jayezhu/blog.git
-#   git config --global user.name "JayeZhu"
-#   git config --global user.email "1032657951@qq.com"
-# fi
+echo 'jayezhu.tk' > CNAME
+if [ -z "$GITHUB_TOKEN" ]; then
+  msg='deploy'
+  githubUrl=git@github.com:jayezhu/blog.git
+else
+  msg='来自github actions的自动部署'
+  githubUrl=https://jayezhu:${GITHUB_TOKEN}@github.com/jayezhu/blog.git
+  git config --global user.name "JayeZhu"
+  git config --global user.email "1032657951@qq.com"
+fi
 git init
 git add -A
-# git commit -m "${msg}"
-git commit -m "deploy"
-git push -f https://github.com/JayeZhu/JayeZhu.github.io.git master
-# git push -f $githubUrl master:gh-pages # 推送到github
+git commit -m "${msg}"
+# git commit -m "deploy"
+# git push -f https://github.com/JayeZhu/JayeZhu.github.io.git master
+git push -f $githubUrl master:gh-pages # 推送到github
 
 # deploy to coding
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
