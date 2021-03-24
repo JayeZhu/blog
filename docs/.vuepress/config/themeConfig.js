@@ -63,7 +63,7 @@ module.exports = {
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:894072666@qq.com',
+        link: 'mailto:1032657951@qq.com',
       },
       {
         iconClass: 'icon-github',
@@ -73,7 +73,7 @@ module.exports = {
       {
         iconClass: 'icon-erji',
         title: '听音乐',
-        link: 'https://music.163.com/#/playlist?id=755597173',
+        link: 'https://music.163.com/#/playlist?id=123357980',
       },
     ],
   },
@@ -81,7 +81,7 @@ module.exports = {
     // 页脚信息
     createYear: 2019, // 博客创建年份
     copyrightInfo:
-      'JayeZhu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      'JayeZhu | <a href="https://github.com/JayeZhu/blog/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   },
   htmlModules // 插入hmtl(广告)模块
 }
