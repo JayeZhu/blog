@@ -23,9 +23,8 @@ fi
 git init
 git add -A
 git commit -m "${msg}"
-# git commit -m "deploy"
-# git push -f https://github.com/JayeZhu/JayeZhu.github.io.git master
 git push -f $githubUrl master:gh-pages # 推送到github
+# git push -f https://github.com/JayeZhu/JayeZhu.github.io.git master
 
 # deploy to coding
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
