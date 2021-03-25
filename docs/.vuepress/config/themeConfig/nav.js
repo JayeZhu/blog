@@ -6,9 +6,9 @@ module.exports = [
     link: '/fe/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
-      { text: 'HTML', link: '/fe/01d45e/'},
+      { text: 'HTML', link: '/fe/8db2b0/'},
       { text: 'CSS', link: '/fe/01d45e/'},
-      { text: 'JavaScript', link: '/fe/01d45e/'},
+      { text: 'JavaScript', link: '/fe/d9fabb/'},
     ],
   },
   {
@@ -22,7 +22,7 @@ module.exports = [
     text: '技术',
     link: '/technology/',
     items: [
-      { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+      { text: '博客搭建', link: '/blog/228b1e/' },
     ],
   },
   {
