@@ -13,10 +13,12 @@ cd docs/.vuepress/dist
 echo 'jayezhu.tk' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:jayezhu/blog.git
+  # githubUrl=git@github.com:jayezhu/blog.git
+  githubUrl=git@github.com:jayezhu/jayezhu.github.io.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://jayezhu:${GITHUB_TOKEN}@github.com/jayezhu/blog.git
+  # githubUrl=https://jayezhu:${GITHUB_TOKEN}@github.com/jayezhu/blog.git
+  githubUrl=https://jayezhu:${GITHUB_TOKEN}@github.com/jayezhu/jayezhu.github.io.git
   git config --global user.name "JayeZhu"
   git config --global user.email "1032657951@qq.com"
 fi
