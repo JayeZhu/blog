@@ -46,14 +46,23 @@ on:
   push:
     branches:
       - master  # 基于 master 分支，如果你的分支不是这个，请切换
+  env: # 设置环境变量
+    TZ: Asia/Shanghai # 时区
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest   # 使用 ubuntu 服务器
+    strategy:
+      matrix:
+        node-version: [12.x]
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.1
         with:
           persist-credentials: false
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1 # 作用：安装nodejs
+        with:
+          node-version: ${{ matrix.node-version }} # 版本
       - name: install and build
         run:        # 这里执行 安装 打包
           npm install
@@ -61,7 +70,7 @@ jobs:
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.5.9  # 引用别人的部署插件
-        with:
+        env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}   # 这里需要设置成你的 token
           BRANCH: gh-pages
           BASE_BRANCH: master # 要部署的文件夹所在的分支.
