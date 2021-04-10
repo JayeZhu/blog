@@ -15,7 +15,7 @@ module.exports = [
     text: '后端',
     link: '/be/',
     items: [
-      { text: 'Node', link: '/pages/8309a5b876fc95e3/' },
+      { text: 'Node', link: '/pages/02a784/' },
     ],
   },
   {
@@ -30,10 +30,8 @@ module.exports = [
     link: '/more/',
     items: [
       { text: '算法', link: '/algorithm/e78365/' },
-      { text: '学习', link: '/pages/f2a556/' },
-      { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-      { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-      { text: '实用技巧', link: '/pages/baaa02/' },
+      // { text: '学习', link: '/pages/f2a556/' },
+      // { text: '面试', link: '/pages/aea6571b7a8bae86/' },
       { text: '友情链接', link: '/friends/' },
     ],
   },
