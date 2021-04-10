@@ -70,7 +70,7 @@ jobs:
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.5.9  # 引用别人的部署插件
-        env:
+        with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}   # 这里需要设置成你的 token
           BRANCH: gh-pages
           BASE_BRANCH: master # 要部署的文件夹所在的分支.
