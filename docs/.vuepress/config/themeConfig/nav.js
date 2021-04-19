@@ -22,7 +22,8 @@ module.exports = [
     text: '技术',
     link: '/technology/',
     items: [
-      { text: '博客搭建', link: '/blog/228b1e/' },
+      { text: '博客搭建', link: '/technology/228b1e/' },
+      { text: 'GIT', link: '/technology/cb1d80/' },
     ],
   },
   {
