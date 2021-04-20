@@ -92,6 +92,12 @@ jobs:
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
-        with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
+        # with:
+        #   branch: gh-pages # The branch the action should deploy to.
+        #   folder: build # The folder the action should deploy.
+        env: # 设置环境变量
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
+          BASE_BRANCH: master # 要部署的文件夹所在的分支.
+          BRANCH: gh-pages # 部署到的分支
+          FOLDER: docs/.vuepress/dist # 要部署的文件夹.
+          BUILD_SCRIPT: npm install && npm run build && cd docs/.vuepress/dist && echo 'jayezhu.tk' > CNAME && cd - # 部署前要执行的命令（记得cd进入某个目录后，后面要cd -退回开始的目录）
