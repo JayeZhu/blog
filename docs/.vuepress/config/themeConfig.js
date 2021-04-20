@@ -83,5 +83,5 @@ module.exports = {
     copyrightInfo:
       'JayeZhu | <a href="https://github.com/JayeZhu/blog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   },
-  htmlModules // 插入hmtl(广告)模块
+  // htmlModules // 插入hmtl(广告)模块
 }
