@@ -77,7 +77,10 @@
 #           BASE_BRANCH: master # 要部署的文件夹所在的分支.
 #           FOLDER: docs/.vuepress/dist
 name: Build and Deploy
-on: [push]
+on:
+  push:
+    branches:
+      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
