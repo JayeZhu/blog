@@ -52,7 +52,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://gitee.com/JayeZhu/image/raw/master/blog/20210313004207.png',
+    avatar: 'https://avatars.githubusercontent.com/u/37999818?s…00&u=701ab3310a71fd7fcac2913b452c5d94a26ce4b0&v=4',
     name: 'JayeZhu',
     slogan: '种一棵树，最好的时间是十年前，其次是现在',
   },
