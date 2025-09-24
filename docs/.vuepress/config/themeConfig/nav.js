@@ -52,7 +52,7 @@ module.exports = [
     ],
   },
   {
-    text: '索引',
+    text: '归档',
     link: '/archives/',
     items: [
       { text: '分类', link: '/categories/' },
@@ -60,4 +60,5 @@ module.exports = [
       { text: '归档', link: '/archives/' },
     ],
   },
+  { text: '英文', link: 'https://en.jayezhu.dpdns.org/' },
 ]
