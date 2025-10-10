@@ -9,6 +9,7 @@ module.exports = [
       { text: 'HTML', link: '/fe/8db2b0/'},
       { text: 'CSS', link: '/fe/ecbb0f/'},
       { text: 'JavaScript', link: '/fe/d9fabb/'},
+      { text: 'TypeScript', link: '/pages/7a2f43/'},
       { text: 'Vue', link: '/pages/443b6e/'},
       { text: '浏览器原理', link: '/pages/363c46/'},
       { text: '计算机网络', link: '/pages/fe0b18/'},
