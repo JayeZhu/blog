@@ -22,7 +22,7 @@ module.exports = [
     text: '后端',
     link: '/be/',
     items: [
-      { text: 'Node', link: '/pages/02a784/' },
+      { text: 'Node', link: '/pages/d366c0/' },
     ],
   },
   {
