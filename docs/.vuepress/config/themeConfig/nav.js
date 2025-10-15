@@ -23,6 +23,7 @@ module.exports = [
     link: '/be/',
     items: [
       { text: 'Node', link: '/pages/d366c0/' },
+      { text: 'Express', link: '/pages/69975b/' },
     ],
   },
   {
