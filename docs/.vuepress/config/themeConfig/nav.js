@@ -30,6 +30,8 @@ module.exports = [
     link: '/technology/',
     items: [
       { text: '博客搭建', link: '/technology/228b1e/' },
+      { text: '项目相关', link: '/pages/5cdeba/' },
+      { text: '情景解决', link: '/pages/fd9948/' },
     ],
   },
   {
