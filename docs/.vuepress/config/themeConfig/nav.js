@@ -16,6 +16,7 @@ module.exports = [
       { text: '前端设计模式', link: '/pages/8869ee/'},
       { text: '前端性能优化', link: '/pages/e71b27/'},
       { text: 'TypeScript', link: '/pages/7a2f43/'},
+      { text: 'React', link: '/pages/576dde/'},
     ],
   },
   {
