@@ -43,7 +43,7 @@ module.exports = [
     items: [
       { text: '算法', link: '/algorithm/e78365/' },
       // { text: '学习', link: '/pages/f2a556/' },
-      // { text: '面试', link: '/pages/aea6571b7a8bae86/' },
+      { text: '面试', link: '/pages/b6805c/' },
       { text: '友情链接', link: '/friends/' },
     ],
   },
